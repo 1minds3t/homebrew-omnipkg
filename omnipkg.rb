@@ -101,8 +101,8 @@ class Omnipkg < Formula
   end
 
   resource "typing_extensions" do
-  url "https://pypi.io/packages/source/t/typing_extensions/typing_extensions-4.14.1.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    url "https://pypi.io/packages/source/t/typing_extensions/typing_extensions-4.12.0.tar.gz"
+    sha256 "0524e23a41c1a63c809a1476d1e4aaa05a5f603cabc45a27b87541604a1b802a"
   end
 
   resource "urllib3" do
