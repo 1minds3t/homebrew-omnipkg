@@ -100,9 +100,9 @@ class Omnipkg < Formula
     sha256 "f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2"
   end
 
-  resource "typing_extensions" do
+  resource "typing-extensions" do
     url "https://pypi.io/packages/source/t/typing_extensions/typing_extensions-4.12.0.tar.gz"
-    sha256 "0524e23a41c1a63c809a1476d1e4aaa05a5f603cabc45a27b87541604a1b802a"
+    sha256 "8cbcdc8606ebcb0d95453ad7dc5065e6237b6aa230a31e81d0f440c30fed5fd8"
   end
 
   resource "urllib3" do
