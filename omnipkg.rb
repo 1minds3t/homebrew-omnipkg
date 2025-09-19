@@ -5,8 +5,8 @@ class Omnipkg < Formula
 
   desc "The Ultimate Python Dependency Resolver"
   homepage "https://github.com/1minds3t/omnipkg"
-  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.4.5.tar.gz"
-  sha256 "f4ccdbba8efce2b57271854a780a4d21b53c551adbe9e99fcaadf0d8b25d4260"
+  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.4.6.tar.gz"
+  sha256 "f7afeec019389c580462a08a88c81c2389121a150c4a4c1968ab97feb8c7dd76"
   license "AGPL-3.0-only"
 
   # == Dependencies ==
