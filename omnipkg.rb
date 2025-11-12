@@ -5,8 +5,8 @@ class Omnipkg < Formula
 
   desc "The Ultimate Python Dependency Resolver"
   homepage "https://github.com/1minds3t/omnipkg"
-  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.6.0.tar.gz"
-  sha256 "162519d93ca1db2a89215675f01ac1254ee39680c3e640de02a72055efdb8cb9"
+  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.5.11.tar.gz"
+  sha256 "1f0dcbd41fec17e7716190aefc5f823d0a3be4c145307bd9db7aab2ad98629e6"
   license "AGPL-3.0-only"
 
   # == Dependencies ==
@@ -41,8 +41,8 @@ class Omnipkg < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/4c/5b/b6ce21586237c77ce67d01dc5507039d444b630dd76611bbca2d8e5dcd91/certifi-2025.10.5.tar.gz"
-    sha256 "47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43"
+    url "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz"
+    sha256 "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316"
   end
 
   resource "charset-normalizer" do
