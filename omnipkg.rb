@@ -5,8 +5,8 @@ class Omnipkg < Formula
 
   desc "The Ultimate Python Dependency Resolver"
   homepage "https://github.com/1minds3t/omnipkg"
-  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.6.1.tar.gz"
-  sha256 "e1d31a6729089ceebe5630ba878c979567bc2e64bab1cec88aae39e76d179959"
+  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.6.2.tar.gz"
+  sha256 "a87e55ba5a0119a9c56a3add004b8f45ddfa9c678ec4c69b32a4f387807f14d0"
   license "AGPL-3.0-only"
 
   # == Dependencies ==
@@ -86,8 +86,8 @@ class Omnipkg < Formula
   end
 
   resource "redis" do
-    url "https://files.pythonhosted.org/packages/57/8f/f125feec0b958e8d22c8f0b492b30b1991d9499a4315dfde466cf4289edc/redis-7.0.1.tar.gz"
-    sha256 "c949df947dca995dc68fdf5a7863950bf6df24f8d6022394585acc98e81624f1"
+    url "https://files.pythonhosted.org/packages/43/c8/983d5c6579a411d8a99bc5823cc5712768859b5ce2c8afe1a65b37832c81/redis-7.1.0.tar.gz"
+    sha256 "b1cc3cfa5a2cb9c2ab3ba700864fb0ad75617b41f01352ce5779dabf6d5f9c3c"
   end
 
   resource "requests" do
