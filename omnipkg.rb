@@ -5,8 +5,8 @@ class Omnipkg < Formula
 
   desc "The Ultimate Python Dependency Resolver"
   homepage "https://github.com/1minds3t/omnipkg"
-  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-1.6.2.tar.gz"
-  sha256 "a87e55ba5a0119a9c56a3add004b8f45ddfa9c678ec4c69b32a4f387807f14d0"
+  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-2.0.0.tar.gz"
+  sha256 "3d8b7016d0c1a19b12065601a0dd56b3f7456625e009a86f6966ca844a864d06"
   license "AGPL-3.0-only"
 
   # == Dependencies ==
@@ -106,8 +106,8 @@ class Omnipkg < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz"
-    sha256 "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760"
+    url "https://files.pythonhosted.org/packages/5e/1d/0f3a93cca1ac5e8287842ed4eebbd0f7a991315089b1a0b01c7788aa7b63/urllib3-2.6.1.tar.gz"
+    sha256 "5379eb6e1aba4088bae84f8242960017ec8d8e3decf30480b3a1abdaa9671a3f"
   end
 
   resource "yarl" do
