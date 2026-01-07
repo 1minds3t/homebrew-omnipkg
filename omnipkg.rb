@@ -5,8 +5,8 @@ class Omnipkg < Formula
 
   desc "The Ultimate Python Dependency Resolver"
   homepage "https://github.com/1minds3t/omnipkg"
-  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-2.0.4.tar.gz"
-  sha256 "048459fd5bb47011a8e60b37df9eba76778f1d27110cead4dd00585b0a61166c"
+  url "https://pypi.org/packages/source/o/omnipkg/omnipkg-2.1.1.tar.gz"
+  sha256 "a7e2df831db2f50b3098a41397b194c113d903fe7694d644707a7f2656946283"
   license "AGPL-3.0-only"
 
   # == Dependencies ==
@@ -26,8 +26,8 @@ class Omnipkg < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/1c/ce/3b83ebba6b3207a7135e5fcaba49706f8a4b6008153b4e30540c982fae26/aiohttp-3.13.2.tar.gz"
-    sha256 "40176a52c186aefef6eb3cad2cdd30cd06e3afbe88fe8ab2af9c0b90f228daca"
+    url "https://files.pythonhosted.org/packages/50/42/32cf8e7704ceb4481406eb87161349abb46a57fee3f008ba9cb610968646/aiohttp-3.13.3.tar.gz"
+    sha256 "a949eee43d3782f2daae4f4a2819b2cb9b0c5d3b7f7a927067cc84dafdbb9f88"
   end
 
   resource "aiosignal" do
@@ -41,8 +41,8 @@ class Omnipkg < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz"
-    sha256 "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316"
+    url "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz"
+    sha256 "ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120"
   end
 
   resource "charset-normalizer" do
@@ -51,8 +51,8 @@ class Omnipkg < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/a7/23/ce7a1126827cedeb958fc043d61745754464eb56c5937c35bbf2b8e26f34/filelock-3.20.1.tar.gz"
-    sha256 "b8360948b351b80f420878d8516519a2204b07aefcdcfd24912a5d33127f188c"
+    url "https://files.pythonhosted.org/packages/c1/e0/a75dbe4bca1e7d41307323dad5ea2efdd95408f74ab2de8bd7dba9b51a1a/filelock-3.20.2.tar.gz"
+    sha256 "a2241ff4ddde2a7cebddf78e39832509cb045d18ec1a09d7248d6bfc6bfbbe64"
   end
 
   resource "frozenlist" do
